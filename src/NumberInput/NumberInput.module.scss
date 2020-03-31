@@ -1,0 +1,21 @@
+.NumberInput {
+    display: flex;
+    
+    input {
+        text-align: right;
+        padding-right: 5px;
+    }
+    
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        width: 20px;
+        height: 14px;
+        border: 1px solid gray;
+        font-size: 2px;
+        cursor: pointer;
+    }
+}

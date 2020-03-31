@@ -1,0 +1,123 @@
+
+.Primary {
+  border-radius: 20px;
+  cursor: pointer;
+  background: #4263eb;
+  color: white;
+  text-align: center;
+
+  svg {
+    width: 1em;
+    margin-right: 1em;
+    fill: white;
+    padding: 0;
+    margin: 0;
+  }
+  &:hover:enabled {
+    background: #91a7ff;
+  }
+  &:active:enabled {
+    background: #91a7ff;
+  }
+  &:disabled {
+    cursor: not-allowed;
+    background: #dbe4ff;
+  }
+  &:focus {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.Secondary {
+  border-radius: 20px;
+  cursor: pointer;
+  background: #e9ecef;
+  color: #343a40;
+
+  svg {
+    width: 1em;
+    margin-right: 1em;
+    fill: #343a40;
+    padding: 0;
+    margin: 0;
+  }
+  &:hover:enabled {
+    background: #f1f3f5;
+  }
+  &:active:enabled {
+    background: #dee2e6;
+  }
+  &:disabled {
+    cursor: not-allowed;
+    color: #ced4da;
+  }
+  &:focus {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.Tertiary {
+  border-radius: 20px;
+  cursor: pointer;
+  background: none;
+  color: #4263eb;
+
+  svg {
+    width: 1em;
+    margin-right: 1em;
+    fill: #4263eb;
+    padding: 0;
+    margin: 0;
+  }
+  &:hover:enabled {
+    background: #dbe4ff;
+  }
+  &:active:enabled {
+    background: #bac8ff;
+  }
+  &:disabled {
+    cursor: not-allowed;
+    color: #ced4da;
+  }
+  &:focus {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.Small {
+  height: 1.75rem;
+  font-size: 0.75rem;
+  padding: 0 0.875rem;
+}
+.Medium {
+  height: 2.5rem;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+.Big {
+  height: 3rem;
+  font-size: 1.125rem;
+  padding: 0 1.5rem;
+}
+
+.IconOnly {
+  border-radius: 50%;
+}
+.IconSmall {
+  width: 2rem;
+}
+.IconMedium {
+  width: 2.5rem;
+}
+.IconBig {
+  width: 3rem;
+}
+
+.ButtonWrapper {
+  .description {
+    margin-bottom: 0.5rem;
+  }
+  & > div + div {
+    margin-top: 2rem;
+  }
+}
